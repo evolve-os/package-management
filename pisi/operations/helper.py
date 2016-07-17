@@ -38,6 +38,11 @@ def reorder_base_packages(order):
         else:
             nonbase_order.append(pkg)
 
+    # bug #5 force baselayout to be first 
+    if "baselayout" in systembase_order:
+        systembase_order.remove("baselayout")
+        systembase_order.insert(0, "baselayout")
+
     return systembase_order + nonbase_order
 
 def check_conflicts(order, packagedb):
