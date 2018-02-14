@@ -61,15 +61,15 @@ msgstr "opció %s: valor %s no vàlid: %r"
 #: /usr/lib/python2.7/optparse.py:437
 #, python-format
 msgid "option %s: invalid choice: %r (choose from %s)"
-msgstr "opció %s: tria no vàlida: %r (trieu des de %s)"
+msgstr "opció %s: tria no vàlida: %r (trieu de %s)"
 
 #: /usr/lib/python2.7/optparse.py:1245
 msgid "show this help message and exit"
-msgstr "mostra aquest missatge d'ajuda i surt"
+msgstr "Mostra aquest missatge d'ajuda i surt."
 
 #: /usr/lib/python2.7/optparse.py:1250
 msgid "show program's version number and exit"
-msgstr "mostra el número de versió del programa i surt"
+msgstr "Mostra el número de versió del programa i surt."
 
 #: /usr/lib/python2.7/optparse.py:1273
 msgid "%prog [options]"
@@ -78,17 +78,17 @@ msgstr "%prog [opcions]"
 #: /usr/lib/python2.7/optparse.py:1493 /usr/lib/python2.7/optparse.py:1532
 #, python-format
 msgid "%s option requires an argument"
-msgstr "l'opció %s requereix un argument"
+msgstr "L'opció %s requereix un argument."
 
 #: /usr/lib/python2.7/optparse.py:1495 /usr/lib/python2.7/optparse.py:1534
 #, python-format
 msgid "%s option requires %d arguments"
-msgstr "L'opció %s requereix %d arguments"
+msgstr "L'opció %s requereix %d arguments."
 
 #: /usr/lib/python2.7/optparse.py:1504
 #, python-format
 msgid "%s option does not take a value"
-msgstr "L'opció %s no agafa un valor"
+msgstr "L'opció %s no agafa un valor."
 
 #: /usr/lib/python2.7/optparse.py:1621
 msgid "Options"
