@@ -716,7 +716,7 @@ msgstr "El paquet %s no s'ha trobat a cap repositori actiu."
 #: pisi/atomicoperations.py:146
 #, python-format
 msgid "Installing %s, version %s, release %s"
-msgstr "S'instal·lia %s, versió %s, publicació %s."
+msgstr "S'instal·la %s, versió %s, publicació %s."
 
 #: pisi/atomicoperations.py:192 pisi/operations/build.py:765
 #, python-format
