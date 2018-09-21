@@ -362,7 +362,7 @@ msgstr "Verzeichnis %s konnte nicht erstellt werden"
 #: pisi/actionsapi/shelltools.py:57
 #, python-format
 msgid "ActionsAPI [echo]: Can't append to file %s."
-msgstr "ActionsAPI [echo]: Konnte nicht an die Datei %s hinzugefügen."
+msgstr "ActionsAPI [echo]: Konnte nicht an die Datei %s hinzufügen."
 
 #: pisi/actionsapi/shelltools.py:63
 #, python-format
@@ -1199,7 +1199,7 @@ msgstr "Bandbreitenverwendung unter festgelegten KBs halten"
 
 #: pisi/cli/command.py:108
 msgid "Detailed output"
-msgstr "Detaillerte Ausgabe"
+msgstr "Detaillierte Ausgabe"
 
 #: pisi/cli/command.py:110
 msgid "Show debugging information"
@@ -2788,7 +2788,7 @@ msgstr "Sandbox ermöglicht Build..."
 
 #: pisi/operations/build.py:726
 msgid "Sandbox violation result:"
-msgstr "Ergebniss der Sandbox-Verletzung:"
+msgstr "Ergebnis der Sandbox-Verletzung:"
 
 #: pisi/operations/build.py:731
 msgid "Sandbox violations!"
