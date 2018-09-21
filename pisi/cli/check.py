@@ -84,6 +84,8 @@ class Check(command.Command):
 
         necessary_permissions = True
 
+        broken_packages = []
+
         # True if we should also check the configuration files
         check_config = ctx.get_option('config')
 
@@ -103,6 +105,7 @@ class Check(command.Command):
                 if check_results['missing'] or check_results['corrupted'] \
                         or check_results['config']:
                     ctx.ui.info(util.colorize(_("Broken"), 'brightred'))
+                    broken_packages.append(pkg)
                 elif check_results['denied']:
                     # We can't deduce a result when some files
                     # can't be accessed
@@ -133,6 +136,14 @@ class Check(command.Command):
             else:
                 # Package is not installed
                 ctx.ui.info(_('Package %s not installed') % pkg)
+
+        if len(broken_packages) > 0:
+            broken_packages_str = ' '.join(broken_packages)
+
+            ctx.ui.info("")
+            ctx.ui.warning(_("Some packages are reported as broken, you may "
+                             "want to repair these packages by running:"))
+            ctx.ui.warning("sudo eopkg it --reinstall %s" % broken_packages_str)
 
         if not necessary_permissions:
             ctx.ui.info("")
