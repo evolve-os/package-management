@@ -813,7 +813,7 @@ msgstr "Archivo instalado %s no existe en el sistema [Probablemente eliminado ma
 
 #: pisi/cli/__init__.py:117
 msgid "Warning: "
-msgstr "Alerta:"
+msgstr "Alerta: "
 
 #: pisi/cli/__init__.py:127
 msgid "Error: "
@@ -822,7 +822,7 @@ msgstr "Error: "
 # is this to translate ? would it work if i change this ?
 #: pisi/cli/__init__.py:161
 msgid " (yes/no)"
-msgstr " (yes/no)"
+msgstr " (yes/no): "
 
 #: pisi/cli/__init__.py:185
 msgid " [complete]\n"
