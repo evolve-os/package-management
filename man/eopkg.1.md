@@ -734,8 +734,8 @@ On success, 0 is returned. A non-zero return code signals a failure.
 
 `usysconf(1)`, `solbuild(1)`, `ferryd(1)`, `ypkg(1)`, `package.yml(5)`
 
- * https://github.com/solus-project/package-management
- * https://wiki.solus-project.com/Packaging
+ * https://getsol.us/articles/package-management/
+ * https://getsol.us/articles/packaging/
 
 ## NOTES
 
